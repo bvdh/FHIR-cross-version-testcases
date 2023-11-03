@@ -1,0 +1,1 @@
+Bundle is an instance of Resource and as such cannot hold cross-version extensions.
