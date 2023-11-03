@@ -1,0 +1,2 @@
+Instance: PatientExample
+InstanceOf: Patient
