@@ -1,0 +1,47 @@
+{
+  "resourceType": "Basic",
+  "id": "BasicTransport",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "rationale",
+          "valueString": "Example of using cross version extensions to create a resource in another version where the resource does not exists. Resource should pass.\n"
+        },
+        {
+          "url": "profile",
+          "valueString": "http://hl7.org/fhir/StructureDefinition/Basic|5.0.0"
+        },
+        {
+          "url": "expectedResult",
+          "valueCode": "pass"
+        }
+      ],
+      "url": "http://hl7.org/crossversion/tescases/R5/StructureDefinition/CrossVersionTestExtension"
+    },
+    {
+      "url": "http://hl7.org/R5/StructureDefinition/extension-Transport.status",
+      "valueCode": "in-progress"
+    },
+    {
+      "url": "http://hl7.org/R5/StructureDefinition/extension-Transport.intent",
+      "valueCode": "filler-order"
+    },
+    {
+      "url": "http://hl7.org/R5/StructureDefinition/extension-Transport.priority",
+      "valueCode": "urgent"
+    },
+    {
+      "url": "http://hl7.org/R5/StructureDefinition/extension-Transport.description",
+      "valueString": "Example of transport."
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "Transport",
+        "system": "http://hl7.org/fhir/fhir-types"
+      }
+    ]
+  }
+}

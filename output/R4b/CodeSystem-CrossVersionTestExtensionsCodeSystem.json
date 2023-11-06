@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "CrossVersionTestExtensionsCodeSystem",
+  "id": "CrossVersionTestExtensionsCodeSystem",
+  "url": "http://hl7.org/crossversion/tescases/R4/CodeSystem/CrossVersionTestExtensionsCodeSystem",
+  "concept": [
+    {
+      "code": "testoutcome",
+      "display": "test result options",
+      "definition": "Possible test results",
+      "concept": [
+        {
+          "code": "pass",
+          "display": "pass",
+          "definition": "Test should pass validation."
+        },
+        {
+          "code": "fail",
+          "display": "fail",
+          "definition": "Test should fail validation."
+        }
+      ]
+    }
+  ],
+  "count": 3
+}

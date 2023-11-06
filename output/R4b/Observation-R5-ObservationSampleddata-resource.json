@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "R5-ObservationSampleddata-resource",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "rationale",
+          "valueString": "Tests the use of the R5 Encounter.status in R4 with a value that only exists in R5 with a code that does not exist in R5."
+        },
+        {
+          "url": "profile",
+          "valueString": "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"
+        },
+        {
+          "url": "expectedResult",
+          "valueCode": "pass"
+        }
+      ],
+      "url": "http://hl7.org/crossversion/tescases/R4/StructureDefinition/CrossVersionTestExtension"
+    }
+  ],
+  "valueSampledData": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-SampledData.intervalUnit",
+        "valueCode": "s"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-SampledData.offsets",
+        "valueString": "0.1 0.15 0.3 0.4"
+      }
+    ],
+    "origin": {
+      "value": 0,
+      "code": "{ratio}",
+      "system": "http://unitsofmeasure.org",
+      "unit": "ratio"
+    },
+    "dimensions": 1,
+    "data": "0.85 0.85 0.9 1.1",
+    "_period": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "not-applicable"
+        }
+      ]
+    }
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "value",
+        "system": "http:somecodesystem"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PatientExample"
+  }
+}

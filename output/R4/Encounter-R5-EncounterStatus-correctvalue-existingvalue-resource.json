@@ -1,0 +1,32 @@
+{
+  "resourceType": "Encounter",
+  "id": "R5-EncounterStatus-correctvalue-existingvalue-resource",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "rationale",
+          "valueString": "Tests the use of the R5 Encounter.status in R4 with a value that only exists in R5 with a code that exists in R5.In addition, the base status is present."
+        },
+        {
+          "url": "profile",
+          "valueString": "http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1"
+        },
+        {
+          "url": "expectedResult",
+          "valueCode": "pass"
+        }
+      ],
+      "url": "http://hl7.org/crossversion/tescases/R4/StructureDefinition/CrossVersionTestExtension"
+    },
+    {
+      "url": "http://hl7.org/5.0/StructureDefinition/extension-Encounter.status",
+      "valueCode": "arrived"
+    }
+  ],
+  "status": "unknown",
+  "class": {
+    "code": "FLD",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.crossversion.testcases",
+  "url": "http://hl7.org/crossversion/tescases/R4/ImplementationGuide/fhir.crossversion.testcases",
+  "version": "0.1.0",
+  "name": "CrossVersionExtensiontestcases",
+  "status": "draft",
+  "publisher": "HL7",
+  "contact": [
+    {
+      "name": "HL7",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.crossversion.testcases",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "ActivityDefinition/ActivityDefinitionWithQuestionnaireExtension"
+        },
+        "name": "ActivityDefinitionWithQuestionnaireExtension",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Basic/BasicTransport"
+        },
+        "name": "BasicTransport",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/CrossVersionTestExtension"
+        },
+        "name": "CrossVersionTestExtension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/CrossVersionTestExtensionsCodeSystem"
+        },
+        "name": "CrossVersionTestExtensionsCodeSystem",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/CrossVersionTestExtensionsValueSet"
+        },
+        "name": "CrossVersionTestExtensionsValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-correctvalue-existingvalue-resource"
+        },
+        "name": "R5-EncounterStatus-correctvalue-existingvalue-resource",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-correctvalue-resource"
+        },
+        "name": "R5-EncounterStatus-correctvalue-resource",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-incorrectvalue-resource"
+        },
+        "name": "R5-EncounterStatus-incorrectvalue-resource",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/R5-ObservationSampleddata-resource"
+        },
+        "name": "R5-ObservationSampleddata-resource",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "path-history",
+        "value": "http://hl7.org/crossversion/tescases/R4/history.html"
+      }
+    ]
+  }
+}

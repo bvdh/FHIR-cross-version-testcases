@@ -2,12 +2,11 @@
 {% if fhirVersion == "R4" %}
 Instance: R5-ObservationSampleddata-resource
 InstanceOf: Observation
-Description: """ 
-  Tests the use of the R5 Encounter.status in R4 with a value that only exists in R5 with a code that does not exist in R5. 
-
-  profile: "http://hl7.org/fhir/StructureDefinition/Observation|{fhirVersionNo}",
-"""
 Usage: #example
+* insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 
+  [["Tests the use of the R5 Encounter.status in R4 with a value that only exists in R5 with a code that does not exist in R5."]]
+)
+* insert crossversionTest( #pass, "http://hl7.org/fhir/StructureDefinition/Observation|{{fhirVersionNo}}" )
 * status = #final
 * code = http:somecodesystem#value
 * subject = Reference( PatientExample )

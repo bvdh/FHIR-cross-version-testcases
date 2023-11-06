@@ -1,0 +1,121 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.crossversion.testcases",
+  "url": "http://hl7.org/crossversion/tescases/R5/ImplementationGuide/fhir.crossversion.testcases",
+  "version": "0.1.0",
+  "name": "CrossVersionExtensiontestcases",
+  "status": "draft",
+  "publisher": "HL7",
+  "contact": [
+    {
+      "name": "HL7",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.crossversion.testcases",
+  "fhirVersion": [
+    "5.0.0"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Basic/BasicTransport"
+        },
+        "name": "BasicTransport",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/CrossVersionTestExtension"
+        },
+        "name": "CrossVersionTestExtension",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/CrossVersionTestExtensionsCodeSystem"
+        },
+        "name": "CrossVersionTestExtensionsCodeSystem",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/CrossVersionTestExtensionsValueSet"
+        },
+        "name": "CrossVersionTestExtensionsValueSet",
+        "isExample": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-correctvalue-existingvalue-resource"
+        },
+        "name": "R5-EncounterStatus-correctvalue-existingvalue-resource",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-correctvalue-resource"
+        },
+        "name": "R5-EncounterStatus-correctvalue-resource",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/R5-EncounterStatus-incorrectvalue-resource"
+        },
+        "name": "R5-EncounterStatus-incorrectvalue-resource",
+        "isExample": true
+      }
+    ],
+    "page": {
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "title": "Home",
+          "generation": "markdown",
+          "name": "index.html",
+          "sourceUrl": "index.html"
+        }
+      ],
+      "name": "toc.html",
+      "sourceUrl": "toc.html"
+    },
+    "parameter": [
+      {
+        "code": {
+          "code": "copyrightyear",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "2023+"
+      },
+      {
+        "code": {
+          "code": "releaselabel",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "ci-build"
+      },
+      {
+        "code": {
+          "code": "path-history",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "http://hl7.org/crossversion/tescases/R5/history.html"
+      }
+    ]
+  }
+}

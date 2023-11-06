@@ -1,9 +1,10 @@
 Instance: BasicTransport
 InstanceOf: Basic
-Description: """
-  Example of using cross version extensions to create a resource in another version where the resource does
-  not exists.
-"""
+* insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 
+  [["Example of using cross version extensions to create a resource in another version where the resource does not exists. Resource should pass.
+"]]
+)
+* insert crossversionTest( #pass, "http://hl7.org/fhir/StructureDefinition/Basic|{{fhirVersionNo}}" )
 * code =  http://hl7.org/fhir/fhir-types#Transport
 * extension[+]
   * insert crossVersionUrl( R5, Transport.status )

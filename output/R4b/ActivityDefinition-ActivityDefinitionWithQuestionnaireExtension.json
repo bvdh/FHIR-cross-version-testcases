@@ -1,0 +1,29 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "ActivityDefinitionWithQuestionnaireExtension",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "rationale",
+          "valueString": "Tests the use of the R5 Questionnaire.versionAlgorithmString on a ActivityDefinition. This resource should fail as the context of the extension is not on ActivityDefinition."
+        },
+        {
+          "url": "profile",
+          "valueString": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition|4.0.1"
+        },
+        {
+          "url": "expectedResult",
+          "valueCode": "pass"
+        }
+      ],
+      "url": "http://hl7.org/crossversion/tescases/R4/StructureDefinition/CrossVersionTestExtension"
+    },
+    {
+      "url": "http://hl7.org/R5/StructureDefinition/extension-Questionnaire.versionAlgorithmString",
+      "valueString": "random"
+    }
+  ],
+  "status": "active",
+  "priority": "routine"
+}
