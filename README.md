@@ -14,3 +14,9 @@ This script performs the following tasks:
 * it deletes the source liquid files
 * it runs sushi
 * it copies the results files to the output directory.
+
+Each test case consist of a FHIR resource. The resource contains an extension that states:
+
+* The profile to be used to validate the resource.
+* Whether the validation should succeed or fail.
+* A rationale for the test.
