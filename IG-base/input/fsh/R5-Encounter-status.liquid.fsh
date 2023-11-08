@@ -11,7 +11,7 @@ Usage: #example
   * insert dataAbsentExtension
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#FLD
 
-Instance: R5-EncounterStatus-correctvalue-existingvalue-resource
+Instance: Test-R5-EncounterStatus-correctvalue-existingvalue-resource
 InstanceOf: Encounter
 Usage: #example
 * insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 
@@ -24,7 +24,7 @@ Usage: #example
   
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#FLD
 
-Instance: R5-EncounterStatus-incorrectvalue-resource
+Instance: Test-R5-EncounterStatus-incorrectvalue-resource
 InstanceOf: Encounter
 Usage: #example
 * insert crossversionTestWithRationale( #fail, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 

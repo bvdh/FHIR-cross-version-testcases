@@ -25,13 +25,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "Basic/BasicTransport"
-        },
-        "name": "BasicTransport",
-        "isExample": true
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/CrossVersionTestExtension"
         },
         "name": "CrossVersionTestExtension",
@@ -60,13 +53,6 @@
       },
       {
         "reference": {
-          "reference": "Encounter/R5-EncounterStatus-correctvalue-existingvalue-resource"
-        },
-        "name": "R5-EncounterStatus-correctvalue-existingvalue-resource",
-        "isExample": true
-      },
-      {
-        "reference": {
           "reference": "Encounter/R5-EncounterStatus-correctvalue-resource"
         },
         "name": "R5-EncounterStatus-correctvalue-resource",
@@ -74,9 +60,23 @@
       },
       {
         "reference": {
-          "reference": "Encounter/R5-EncounterStatus-incorrectvalue-resource"
+          "reference": "Basic/Test-BasicTransport"
         },
-        "name": "R5-EncounterStatus-incorrectvalue-resource",
+        "name": "Test-BasicTransport",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Test-R5-EncounterStatus-correctvalue-existingvalue-resource"
+        },
+        "name": "Test-R5-EncounterStatus-correctvalue-existingvalue-resource",
+        "isExample": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Test-R5-EncounterStatus-incorrectvalue-resource"
+        },
+        "name": "Test-R5-EncounterStatus-incorrectvalue-resource",
         "isExample": true
       }
     ],

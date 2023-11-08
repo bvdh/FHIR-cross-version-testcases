@@ -1,6 +1,6 @@
 {
   "resourceType": "Basic",
-  "id": "BasicTransport",
+  "id": "Test-BasicTransport",
   "extension": [
     {
       "extension": [
@@ -10,14 +10,14 @@
         },
         {
           "url": "profile",
-          "valueString": "http://hl7.org/fhir/StructureDefinition/Basic|4.0.1"
+          "valueString": "http://hl7.org/fhir/StructureDefinition/Basic|5.0.0"
         },
         {
           "url": "expectedResult",
           "valueCode": "pass"
         }
       ],
-      "url": "http://hl7.org/crossversion/tescases/R4/StructureDefinition/CrossVersionTestExtension"
+      "url": "http://hl7.org/crossversion/tescases/R5/StructureDefinition/CrossVersionTestExtension"
     },
     {
       "url": "http://hl7.org/R5/StructureDefinition/extension-Transport.status",

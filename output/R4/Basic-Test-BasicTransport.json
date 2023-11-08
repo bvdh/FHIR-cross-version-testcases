@@ -1,6 +1,6 @@
 {
   "resourceType": "Basic",
-  "id": "BasicTransport",
+  "id": "Test-BasicTransport",
   "extension": [
     {
       "extension": [

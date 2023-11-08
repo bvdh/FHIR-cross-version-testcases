@@ -25,20 +25,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "ActivityDefinition/ActivityDefinitionWithQuestionnaireExtension"
-        },
-        "name": "ActivityDefinitionWithQuestionnaireExtension",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Basic/BasicTransport"
-        },
-        "name": "BasicTransport",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/CrossVersionTestExtension"
         },
         "name": "CrossVersionTestExtension",
@@ -67,13 +53,6 @@
       },
       {
         "reference": {
-          "reference": "Encounter/R5-EncounterStatus-correctvalue-existingvalue-resource"
-        },
-        "name": "R5-EncounterStatus-correctvalue-existingvalue-resource",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Encounter/R5-EncounterStatus-correctvalue-resource"
         },
         "name": "R5-EncounterStatus-correctvalue-resource",
@@ -81,16 +60,37 @@
       },
       {
         "reference": {
-          "reference": "Encounter/R5-EncounterStatus-incorrectvalue-resource"
+          "reference": "ActivityDefinition/Test-ActivityDefinitionWithQuestionnaireExtension"
         },
-        "name": "R5-EncounterStatus-incorrectvalue-resource",
+        "name": "Test-ActivityDefinitionWithQuestionnaireExtension",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Observation/R5-ObservationSampleddata-resource"
+          "reference": "Basic/Test-BasicTransport"
         },
-        "name": "R5-ObservationSampleddata-resource",
+        "name": "Test-BasicTransport",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Test-R5-EncounterStatus-correctvalue-existingvalue-resource"
+        },
+        "name": "Test-R5-EncounterStatus-correctvalue-existingvalue-resource",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Test-R5-EncounterStatus-incorrectvalue-resource"
+        },
+        "name": "Test-R5-EncounterStatus-incorrectvalue-resource",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/Test-R5-ObservationSampleddata-resource"
+        },
+        "name": "Test-R5-ObservationSampleddata-resource",
         "exampleBoolean": true
       }
     ],

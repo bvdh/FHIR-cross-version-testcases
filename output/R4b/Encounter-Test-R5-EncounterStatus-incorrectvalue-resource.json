@@ -1,6 +1,6 @@
 {
   "resourceType": "Encounter",
-  "id": "R5-EncounterStatus-incorrectvalue-resource",
+  "id": "Test-R5-EncounterStatus-incorrectvalue-resource",
   "extension": [
     {
       "extension": [

@@ -1,6 +1,6 @@
 
 {% if fhirVersion == "R4" %}
-Instance: R5-ObservationSampleddata-resource
+Instance: Test-R5-ObservationSampleddata-resource
 InstanceOf: Observation
 Usage: #example
 * insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 

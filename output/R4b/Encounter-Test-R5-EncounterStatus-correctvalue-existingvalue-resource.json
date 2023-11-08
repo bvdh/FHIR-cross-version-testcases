@@ -1,6 +1,6 @@
 {
   "resourceType": "Encounter",
-  "id": "R5-EncounterStatus-correctvalue-existingvalue-resource",
+  "id": "Test-R5-EncounterStatus-correctvalue-existingvalue-resource",
   "extension": [
     {
       "extension": [

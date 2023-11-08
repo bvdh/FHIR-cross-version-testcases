@@ -1,4 +1,4 @@
-Instance: BasicTransport
+Instance: Test-BasicTransport
 InstanceOf: Basic
 * insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 
   [["Example of using cross version extensions to create a resource in another version where the resource does not exists. Resource should pass.

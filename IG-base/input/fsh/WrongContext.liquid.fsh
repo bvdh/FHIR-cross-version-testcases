@@ -1,5 +1,5 @@
 {% if fhirVersion != "R5" %}
-Instance: ActivityDefinitionWithQuestionnaireExtension
+Instance: Test-ActivityDefinitionWithQuestionnaireExtension
 InstanceOf: ActivityDefinition
 * insert crossversionTestWithRationale( #pass, "http://hl7.org/fhir/StructureDefinition/Encounter|{{fhirVersionNo}}", 
   [["Tests the use of the R5 Questionnaire.versionAlgorithmString on a ActivityDefinition. This resource should fail as the context of the extension is not on ActivityDefinition."]]

@@ -1,6 +1,6 @@
 {
   "resourceType": "Encounter",
-  "id": "R5-EncounterStatus-incorrectvalue-resource",
+  "id": "Test-R5-EncounterStatus-incorrectvalue-resource",
   "extension": [
     {
       "extension": [
@@ -10,24 +10,30 @@
         },
         {
           "url": "profile",
-          "valueString": "http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1"
+          "valueString": "http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0"
         },
         {
           "url": "expectedResult",
           "valueCode": "fail"
         }
       ],
-      "url": "http://hl7.org/crossversion/tescases/R4/StructureDefinition/CrossVersionTestExtension"
+      "url": "http://hl7.org/crossversion/tescases/R5/StructureDefinition/CrossVersionTestExtension"
     },
     {
       "url": "http://hl7.org/5.0/StructureDefinition/extension-Encounter.status",
       "valueCode": "onleave"
     }
   ],
-  "class": {
-    "code": "FLD",
-    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
-  },
+  "class": [
+    {
+      "coding": [
+        {
+          "code": "FLD",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+        }
+      ]
+    }
+  ],
   "_status": {
     "extension": [
       {
